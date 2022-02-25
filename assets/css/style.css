@@ -1,0 +1,22 @@
+body{
+    background-color: azure;
+}
+
+/* GENRES  */
+.genre-list > div:first-child{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.genre-card{
+    max-width: 20%;
+    padding: 20px 60px;
+    background-color: #c7cad1;
+    color: white;
+    font-weight: 600;
+    margin: 10px;
+}
+.genre-card:hover{
+    cursor: pointer;
+}
