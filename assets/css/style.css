@@ -2,6 +2,11 @@ body{
     background-color: azure;
 }
 
+.section-title{
+    margin: 30px auto;
+text-align: center;
+}
+
 /* GENRES  */
 .genre-list > div:first-child{
     display: flex;
@@ -10,8 +15,8 @@ body{
     flex-wrap: wrap;
 }
 .genre-card{
-    max-width: 20%;
-    padding: 20px 60px;
+    max-width: 8%;
+    padding: 0px 20px;
     background-color: #c7cad1;
     color: white;
     font-weight: 600;
@@ -19,4 +24,26 @@ body{
 }
 .genre-card:hover{
     cursor: pointer;
+}
+.genre-card p{
+    margin: 5px 0px;
+}
+
+/* MOVIES SECTION */
+#movies-section{
+
+}
+#movie-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px 20px;
+}
+#movie-cards .movie-card{
+    margin: 15px 12px;
+    max-width: 18%;
+}
+#movie-cards .movie-card img{
+    max-width: 100%;
 }

@@ -16,13 +16,32 @@
         <h2>GENRES</h2>
         <hr>
         <div class="genre-list">
-            <!-- <div class="genre-card" onclick="selectGenre()">
-                <p>
-                    FICTION
-                </p>
-            </div> -->
+            <!-- Here we will list the genres -->
         </div>
     </div>
+    <div id="filters-section">
+        <input type="text" id="search" >
+        <button onclick="search()">SEARCH</button>
+        <select name="year" id="year-filter">
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+          </select>
+    </div>
+    <div id="movies-section">
+        <div class="section-title">
+            <h1>Movies</h1>
+        </div>
+        <div id="movie-cards">
+            <!-- <div class="movie-card">
+                <img src="https://image.tmdb.org/t/p/w200/s7IA3Ng2mLer8lt8j1BhsVulLqQ.jpg" alt="Img">
+                <div>
+                    <h4>Movie Title</h4>
+                </div>
+            </div> -->
+    
+        </div>
+    </div>
+    
 
 </body>
 
